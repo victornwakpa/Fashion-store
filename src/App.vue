@@ -1,13 +1,13 @@
 <script setup>
+import Hero from './components/Hero.vue';
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-  <header data-theme="light">
-    <div class="text-5xl">
-      Hello World!
-    </div>
-    <button class="btn btn-primary">HELLO</button>
-  </header>
+  <div class="hero-bg flex gap-14 flex-col">
+    <Navbar class="w-full px-24" />
+    <Hero class="w-full px-24" />
+  </div>
 </template>
 
 <style scoped>

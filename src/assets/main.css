@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'Rufina';
+  src: url("./font/Rufina-Bold-700.ttf");
+}
+
+@font-face {
+  font-family: 'elephant-regular';
+  src: url("./font/Elephant.ttf");
+}
+
+.body-font {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-heading {
+  font-family: 'Rufina';
+}
+
+.logo-font {
+  font-family: 'elephant-regular';
+}
+
+.hero-bg {
+  background-color: #C2EFD4;
+}
+
+.text-custom-primary {
+  color: #224F34;
+}
+
+.text-hero-color {
+  color: #267D49;
+}
+
+.image-bg {
+  width: 30em;
+  height: 36em;
+  background-color: #6BC785;
+  border-radius: 141px 45px 150px 82px;
+}
+
+.hero-img {
+  position: absolute;
+}
+
+.btn-hero {
+  background: #224F34;
+}
