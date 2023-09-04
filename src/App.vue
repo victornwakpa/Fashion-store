@@ -3,6 +3,7 @@ import Hero from './components/Hero.vue';
 import Navbar from './components/Navbar.vue';
 import BestSelling from './components/BestSelling.vue';
 import OurProducts from './components/OurProducts.vue';
+import ExclusiveOffer from './components/ExclusiveOffer.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import OurProducts from './components/OurProducts.vue';
   <div>
     <BestSelling  class="w-full px-24"/>
     <OurProducts  class="w-full px-24" />
+    <ExclusiveOffer class="w-full px-24" />
   </div>
 </template>
 
