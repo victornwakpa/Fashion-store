@@ -12,7 +12,7 @@ import OurProducts from './components/OurProducts.vue';
   </div>
   <div>
     <BestSelling  class="w-full px-24"/>
-    <OurProducts />
+    <OurProducts  class="w-full px-24" />
   </div>
 </template>
 

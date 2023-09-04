@@ -8,7 +8,7 @@
             <a href="#" class="mx-3 text-lg">Contact</a>
         </div>
         <div class="flex justify-between items-center gap-6">
-            <img src="../assets/images/Group 1 (1).svg" alt="" class="inline-block">
+            <img src="../assets/images/Group-1.svg" alt="" class="inline-block">
             <button class="uppercase btn btn-outline px-10 rounded-none border-2">login</button>
         </div>
     </div>
