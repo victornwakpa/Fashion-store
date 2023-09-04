@@ -2,6 +2,7 @@
 import Hero from './components/Hero.vue';
 import Navbar from './components/Navbar.vue';
 import BestSelling from './components/BestSelling.vue';
+import OurProducts from './components/OurProducts.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import BestSelling from './components/BestSelling.vue';
   </div>
   <div>
     <BestSelling  class="w-full px-24"/>
+    <OurProducts />
   </div>
 </template>
 
