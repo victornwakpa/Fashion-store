@@ -10,7 +10,7 @@
                 <p class="body-font text-hero-color my-4 text-xl w-[70%] font-medium leading-10">
                     Explore our curated collection of stylish clothing and accessories tailored to your unique taste.
                 </p>
-                <button class="btn btn-hero rounded-none shadow-2xl text-white px-8">
+                <button class="btn btn-hero rounded-none shadow-2xl border-none text-white px-8">
                     Explore now
                 </button>
             </div>
