@@ -29,9 +29,14 @@
                 </div>
             </div>
         </div>
-        <button class="btn btn-outline rounded-none py-6 border-[#224F34] border-2">
+        <div class="text-center my-4">
+            <button class="btn btn-outline rounded-none px-8 border-[#224F34] border-2">
             See all
-            <span></span>
-        </button>
+                <span class="inline-block">
+                    <i class="ri-arrow-right-line"></i>
+                </span>
+            </button>
+        </div>
+        
     </div>
 </template>
