@@ -2,7 +2,7 @@
     <div class="h-screen hero-bg">
         <div class="flex justify-center items-center">
             <div>
-                <h1 class="hero-heading leading-[1.2em] text-7xl text-custom-primary">
+                <h1 class="hero-heading leading-[1.2em] text-6xl text-custom-primary">
                     <span class="lg:block">Discover and </span>
                     <span class="lg:block">Find Your Own </span>
                     <span class="lg:block">Fashion!</span> 

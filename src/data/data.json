@@ -1,0 +1,23 @@
+[
+    {
+        "image": "./src/assets/images/Group-47.png",
+        "name": "Regular Fit Long Sleeve Top",
+        "price": 38.99,
+        "rating": "5.0",
+        "icon": "./src/assets/images/Vector.svg"
+    },
+    {
+        "image": "./src/assets/images/Group-48.png",
+        "name": "Black Crop Tailored Jacket",
+        "price": 62.99,
+        "rating": "4.9",
+        "icon": "./src/assets/images/Vector.svg"
+    },
+    {
+        "image": "./src/assets/images/Group-49.png",
+        "name": "Textured Sunset Shirt",
+        "price": 49.99,
+        "rating": "5.0",
+        "icon": "./src/assets/images/Vector.svg"
+    }
+]
