@@ -4,6 +4,8 @@ import Navbar from './components/Navbar.vue';
 import BestSelling from './components/BestSelling.vue';
 import OurProducts from './components/OurProducts.vue';
 import ExclusiveOffer from './components/ExclusiveOffer.vue';
+import DesignerClothes from './components/DesignerClothes.vue';
+import Feedback from './components/Feedback.vue';
 </script>
 
 <template>
@@ -15,6 +17,8 @@ import ExclusiveOffer from './components/ExclusiveOffer.vue';
     <BestSelling  class="w-full px-24"/>
     <OurProducts  class="w-full px-24" />
     <ExclusiveOffer class="w-full px-24" />
+    <DesignerClothes class="w-full px-24" />
+    <Feedback class="w-full px-24" />
   </div>
 </template>
 

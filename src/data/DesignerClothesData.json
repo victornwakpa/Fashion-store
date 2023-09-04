@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image": "./src/assets/images/hello-1.png",
+        "title": "Accessories",
+        "desc": "Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats."
+    },
+    {
+        "id": 2,
+        "image": "./src/assets/images/hello-2.png",
+        "title": "Dresses",
+        "desc": "Explore a stunning range of designer dresses, including evening gowns and chic day dresses."
+    },
+    {
+        "id": 3,
+        "image": "./src/assets/images/hello-3.png",
+        "title": "Outerwear",
+        "desc": "Browse luxurious designer coats, Jackets, and blazers to stay stylishly warm during colder seasons."
+    }
+]

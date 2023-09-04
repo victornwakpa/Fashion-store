@@ -9,7 +9,7 @@
     <div class="py-16">
         <div class="text-center text-custom-primary">
             <h2 class="text-5xl font-medium">Best Selling</h2>
-            <p class="py-5 text-lg">Get in on the trend with our curated selection of bet-selling styles.</p>
+            <p class="py-5 text-lg">Get in on the trend with our curated selection of best-selling styles.</p>
         </div>
         <div class="grid grid-cols-3 place-content-center mt-8">
             <div v-for="fashion in fashions" :key="fashion.id" class="grid place-content-center">
