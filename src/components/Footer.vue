@@ -29,19 +29,19 @@
                             <div class="mt-3">
                                 <h5 class="font-medium text-xl">SHOP</h5>
                                 <div class="text-[#C2EFD4]">
-                                    <a href="#" class="block p-1 my-3">Products</a>
-                                    <a href="#" class="block p-1 my-3">Overview</a>
-                                    <a href="#" class="block p-1 my-3">Pricing</a>
-                                    <a href="#" class="block p-1 my-3">Release</a>
+                                    <a href="#" class="block py-1 my-3">Products</a>
+                                    <a href="#" class="block py-1 my-3">Overview</a>
+                                    <a href="#" class="block py-1 my-3">Pricing</a>
+                                    <a href="#" class="block py-1 my-3">Release</a>
                                 </div>
                             </div>
                             <div class="md:mr-10 mt-3">
                                 <h5 class="font-medium text-xl">COMPANY</h5>
                                 <div class="text-[#C2EFD4]">
-                                    <a href="#" class="block p-1 my-3">About Us</a>
-                                    <a href="#" class="block p-1 my-3">Contact</a>
-                                    <a href="#" class="block p-1 my-3">News</a>
-                                    <a href="#" class="block p-1 my-3">Support</a>
+                                    <a href="#" class="block py-1 my-3">About Us</a>
+                                    <a href="#" class="block py-1 my-3">Contact</a>
+                                    <a href="#" class="block py-1 my-3">News</a>
+                                    <a href="#" class="block py-1 my-3">Support</a>
                                 </div>
                             </div>
                         </div>
