@@ -9,13 +9,19 @@
                             <p class="my-4 text-lg font-medium">Social Media</p>
                             <div class="flex gap-5">
                                 <div class="text-3xl">
-                                    <i class="ri-facebook-box-line"></i>
+                                    <a href="#">
+                                        <i class="ri-facebook-box-line"></i>
+                                    </a>
                                 </div>
                                 <div class="text-3xl">
-                                    <i class="ri-linkedin-box-line"></i>
+                                    <a href="#">
+                                        <i class="ri-linkedin-box-line"></i>
+                                    </a>
                                 </div>
                                 <div class="text-3xl">
-                                    <i class="ri-instagram-line"></i>
+                                    <a href="#">
+                                        <i class="ri-instagram-line"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +56,7 @@
                 </div>
             </div>
             <!-- SUB FOOTER -->
-            <div class="flex items-center">
+            <div class="flex items-center pb-12">
                 <div class="flex basis-5/6 hero-bg h-[2px] m-0"></div>
                 <div class="flex text-white font-medium">
                     <a href="#" class="mx-2 p-1 my-3">Terms</a>
