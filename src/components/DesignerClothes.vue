@@ -13,7 +13,7 @@
         </div>
         <div class="grid grid-cols-3 gap-9 place-content-center mt-8">
             <div v-for="fashion in fashions" :key="fashion.id" class="grid place-content-center">
-                <img :src="fashion.image" class="h" alt="">
+                <img :src="fashion.image" alt="">
                 <div class=" text-center">
                     <div class="flex justify-center items-center flex-col py-8">
                         <p class="pb-1 font-bold text-2xl">{{ fashion.title }}</p>
