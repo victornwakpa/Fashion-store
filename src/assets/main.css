@@ -16,12 +16,21 @@
   src: url("./font/Elephant.ttf");
 }
 
+@font-face {
+  font-family: 'Arial-bold';
+  src: url("./font/ARLRDBD.ttf");
+}
+
 .body-font {
   font-family: 'Poppins', sans-serif;
 }
 
 .hero-heading {
   font-family: 'Rufina';
+}
+
+.feedback-font {
+  font-family: "Arial-bold";
 }
 
 .logo-font {

@@ -1,6 +1,9 @@
 <script setup>
 import { ref } from 'vue';
 
+import {Swiper, SwiperSlide} from 'swiper/vue'
+// import "swiper/css"
+
 const t = [
     {
         "id": 1,
@@ -25,12 +28,22 @@ const testimonies = ref(t);
 <template>
     <div class="min-h-screen grid place-content-center">
         <h2 class="text-center text-4xl font-medium text-custom-primary mb-12">Feedback Corner</h2>
-        <div class="grid grid-cols-3 gap-10">
-            <div v-for="testimony in testimonies" :key="testimony.id" class="bg-green-200 p-4 rounded-lg">
-                <p></p>
+        <Swiper>
+            <SwiperSlide v-for="testimony in testimonies" :key="testimony.id" class="bg-green-200 odd:bg-gray-100 p-4 rounded-lg">
+                <p class="text-3xl feedback-font text-custom-primary">
+                    <i class="ri-chat-quote-fill"></i>
+                </p>
                 <h4 class="font-medium text-custom-primary text-lg my-4">{{ testimony.name }}</h4>
                 <p class="text-sm leading-5">{{ testimony.text }}</p>
-            </div>
-        </div>
+            </SwiperSlide>
+        </Swiper>
     </div>
 </template>
+
+<style scoped>
+    .swiper {
+        width: 33%;
+        height: 400px;
+        overflow: visible;
+    }
+</style>

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "remixicon": "^3.5.0",
+    "swiper": "^10.2.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
