@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 
 import {Swiper, SwiperSlide} from 'swiper/vue'
-// import "swiper/css"
+import "swiper/css"
 
 const t = [
     {
@@ -23,27 +23,32 @@ const t = [
 ];
 
 const testimonies = ref(t);
+
 </script>
 
 <template>
-    <div class="min-h-screen grid place-content-center">
+    <div class="grid place-content-center min-h-screen">
         <h2 class="text-center text-4xl font-medium text-custom-primary mb-12">Feedback Corner</h2>
-        <Swiper>
-            <SwiperSlide v-for="testimony in testimonies" :key="testimony.id" class="bg-green-200 odd:bg-gray-100 p-4 rounded-lg">
-                <p class="text-3xl feedback-font text-custom-primary">
-                    <i class="ri-chat-quote-fill"></i>
-                </p>
-                <h4 class="font-medium text-custom-primary text-lg my-4">{{ testimony.name }}</h4>
-                <p class="text-sm leading-5">{{ testimony.text }}</p>
-            </SwiperSlide>
-        </Swiper>
+        <div class="grid grid-cols-3 gap-7">
+                <div v-for="testimony in testimonies" :key="testimony.id" class=" bg-green-200 odd:bg-gray-50 p-4 rounded-lg">
+                    <p class="text-3xl feedback-font text-custom-primary">
+                        <i class="ri-chat-quote-fill"></i>
+                    </p>
+                    <h4 class="font-medium text-custom-primary text-lg my-4">{{ testimony.name }}</h4>
+                    <p class="text-sm leading-5">{{ testimony.text }}</p>
+                </div>
+        </div>
+        <div class="flex items-center justify-center my-6">
+            <div class="py-1 px-2 rounded-md bg-gray-50 text-green-700 m-5 text-2xl">
+                <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="py-1 px-2 rounded-md hero-bg text-green-700 m-5 text-2xl">
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+        </div>
     </div>
 </template>
 
 <style scoped>
-    .swiper {
-        width: 33%;
-        height: 400px;
-        overflow: visible;
-    }
+
 </style>
