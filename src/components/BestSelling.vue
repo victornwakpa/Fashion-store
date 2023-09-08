@@ -8,10 +8,10 @@
 <template>
     <div class="py-16">
         <div class="text-center text-custom-primary">
-            <h2 class="text-5xl font-medium">Best Selling</h2>
-            <p class="py-5 text-lg">Get in on the trend with our curated selection of best-selling styles.</p>
+            <h2 class="md:text-5xl text-4xl font-medium">Best Selling</h2>
+            <p class="py-5 text-base md:text-lg ">Get in on the trend with our curated selection of best-selling styles.</p>
         </div>
-        <div class="grid grid-cols-3 place-content-center mt-8">
+        <div class="grid grid-rows-3 sm:grid-cols-2 md:grid-cols-3 gap-5 place-content-center mt-8">
             <div v-for="fashion in fashions" :key="fashion.id" class="grid place-content-center">
                 <img :src="fashion.image" class="h-96 text-center" alt="">
                 <div class=" text-center">

@@ -12,14 +12,14 @@ import Footer from './components/Footer.vue';
 <template>
   <div class="flex gap-14 flex-col">
     <div class="" >
-      <Navbar class="hero-bg w-full px-24" />
-      <Hero class="hero-bg w-full px-24" />
-      <BestSelling class="w-full px-24" />
-      <OurProducts class="w-full px-24" />
-      <ExclusiveOffer class="w-full px-24" />
-      <DesignerClothes class="w-full px-24" />
-      <Feedback class="w-full px-24" />
-      <Footer class="w-full px-24 btn-hero" />
+      <Navbar class="hero-bg w-full md:px-24" />
+      <Hero class="hero-bg w-full md:px-24 px-8" />
+      <BestSelling class="w-full md:px-24 px-8" />
+      <OurProducts class="w-full md:px-24 px-8" />
+      <ExclusiveOffer class="w-full md:px-24 px-8" />
+      <DesignerClothes class="w-full md:px-24 px-8" />
+      <Feedback class="w-full md:px-24 px-8" />
+      <Footer class="w-full md:px-24 px-8 btn-hero" />
     </div>
     
   </div>

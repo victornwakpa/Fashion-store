@@ -5,10 +5,10 @@
                 <img src="../assets/images/offer-image.png" class="md:h-[30rem]" alt="">
             </div>
             <div class="text-custom-primary flex-1 flex justify-center items-center">
-                <div>
-                    <h3 class="text-5xl font-medium">Exclusive offer</h3>
-                    <p class="text-lg my-4">Unlock the ultimate style upgrade with our exclusive offer. Enjoy savings of up to 40% off on our latest New Arrivals</p>
-                    <div class="my-6 flex gap-5">
+                <div class="grid gap-6 text-center">
+                    <h3 class="text-4xl md:text-5xl font-medium">Exclusive offer</h3>
+                    <p class="text-base md:text-lg my-4">Unlock the ultimate style upgrade with our exclusive offer. Enjoy savings of up to 40% off on our latest New Arrivals</p>
+                    <div class="md:my-6 flex gap-5">
                         <div class="bg-white py-4 px-6">
                             <span class="text-3xl block font-bold">06</span>
                             <span class="text-md block font-medium">Days</span>

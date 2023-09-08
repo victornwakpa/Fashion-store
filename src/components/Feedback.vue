@@ -27,9 +27,9 @@ const testimonies = ref(t);
 </script>
 
 <template>
-    <div class="grid place-content-center min-h-screen">
+    <div class="grid place-content-center my-10 md:m-0 md:min-h-screen">
         <h2 class="text-center text-4xl font-medium text-custom-primary mb-12">Feedback Corner</h2>
-        <div class="grid grid-cols-3 gap-7">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-7">
                 <div v-for="testimony in testimonies" :key="testimony.id" class=" bg-green-200 odd:bg-gray-50 p-4 rounded-lg">
                     <p class="text-3xl feedback-font text-custom-primary">
                         <i class="ri-chat-quote-fill"></i>
@@ -38,7 +38,7 @@ const testimonies = ref(t);
                     <p class="text-sm leading-5">{{ testimony.text }}</p>
                 </div>
         </div>
-        <div class="flex items-center justify-center my-6">
+        <div class="hidden md:flex items-center justify-center my-6">
             <div class="py-1 px-2 rounded-md bg-gray-50 text-green-700 m-5 text-2xl">
                 <i class="ri-arrow-left-s-line"></i>
             </div>
