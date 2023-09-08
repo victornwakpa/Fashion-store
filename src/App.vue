@@ -10,17 +10,21 @@ import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <div class="hero-bg flex gap-14 flex-col">
-    <Navbar class="w-full px-24" />
-    <Hero class="w-full px-24" />
+  <div class="flex gap-14 flex-col">
+    <div class="" >
+      <Navbar class="hero-bg w-full px-24" />
+      <Hero class="hero-bg w-full px-24" />
+      <BestSelling class="w-full px-24" />
+      <OurProducts class="w-full px-24" />
+      <ExclusiveOffer class="w-full px-24" />
+      <DesignerClothes class="w-full px-24" />
+      <Feedback class="w-full px-24" />
+      <Footer class="w-full px-24 btn-hero" />
+    </div>
+    
   </div>
   <div>
-    <BestSelling  class="w-full px-24"/>
-    <OurProducts  class="w-full px-24" />
-    <ExclusiveOffer class="w-full px-24" />
-    <DesignerClothes class="w-full px-24" />
-    <Feedback class="w-full px-24" />
-    <Footer class="w-full px-24 btn-hero"/>
+    
   </div>
 </template>
 
